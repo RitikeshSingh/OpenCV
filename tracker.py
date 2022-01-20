@@ -25,6 +25,6 @@ while True:
         cv2.rectangle(frame, p1, p2, (0, 0, 255), 2, 2)
 
     cv2.imshow("Tracking", frame)
-    k = cv2.waitKey(1) & 0xff
+    k = cv2.waitKey(2) & 0xff
     if k == 27:
         break
